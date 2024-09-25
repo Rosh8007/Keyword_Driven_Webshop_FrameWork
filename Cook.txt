@@ -1561,3 +1561,246 @@ class org.openqa.selenium.Cookie
 /
 __utma
 Thu Oct 30 22:18:24 IST 2025
+Url Passed
+Url Passed
+Window Maximize
+__utmz
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmz
+Thu Mar 27 13:43:38 IST 2025
+Nop.customer
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+Nop.customer
+Fri Sep 26 01:43:32 IST 2025
+__utmt
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmt
+Thu Sep 26 01:53:38 IST 2024
+ARRAffinitySameSite
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinitySameSite
+
+__utmb
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmb
+Thu Sep 26 02:13:38 IST 2024
+__utmc
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmc
+
+ARRAffinity
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinity
+
+__utma
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utma
+Fri Oct 31 01:43:38 IST 2025
+NOPCOMMERCE.AUTH
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+NOPCOMMERCE.AUTH
+Sat Oct 26 01:43:48 IST 2024
+__utmz
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmz
+Thu Mar 27 13:43:49 IST 2025
+__RequestVerificationToken
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+__RequestVerificationToken
+
+Nop.customer
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+Nop.customer
+Fri Sep 26 01:43:50 IST 2025
+__utmt
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmt
+Thu Sep 26 01:53:38 IST 2024
+ARRAffinitySameSite
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinitySameSite
+
+__utmb
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmb
+Thu Sep 26 02:13:49 IST 2024
+__utmc
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmc
+
+ARRAffinity
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinity
+
+__utma
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utma
+Fri Oct 31 01:43:49 IST 2025
+NOPCOMMERCE.AUTH
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+NOPCOMMERCE.AUTH
+Sat Oct 26 01:43:48 IST 2024
+__utmz
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmz
+Thu Mar 27 13:44:03 IST 2025
+__RequestVerificationToken
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+__RequestVerificationToken
+
+Nop.customer
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+Nop.customer
+Fri Sep 26 01:44:02 IST 2025
+__utmt
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmt
+Thu Sep 26 01:53:38 IST 2024
+ARRAffinitySameSite
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinitySameSite
+
+__utmb
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmb
+Thu Sep 26 02:14:03 IST 2024
+NopCommerce.RecentlyViewedProducts
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+NopCommerce.RecentlyViewedProducts
+Sun Oct 06 01:43:52 IST 2024
+__utmc
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmc
+
+ARRAffinity
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinity
+
+__utma
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utma
+Fri Oct 31 01:44:03 IST 2025
+NOPCOMMERCE.AUTH
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+NOPCOMMERCE.AUTH
+Sat Oct 26 01:43:48 IST 2024
+__utmz
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmz
+Thu Mar 27 13:44:03 IST 2025
+__RequestVerificationToken
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+__RequestVerificationToken
+
+Nop.customer
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+Nop.customer
+Fri Sep 26 01:44:05 IST 2025
+__utmt
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmt
+Thu Sep 26 01:53:38 IST 2024
+ARRAffinitySameSite
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinitySameSite
+
+__utmb
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmb
+Thu Sep 26 02:14:03 IST 2024
+NopCommerce.RecentlyViewedProducts
+class org.openqa.selenium.Cookie
+demowebshop.tricentis.com
+/
+NopCommerce.RecentlyViewedProducts
+Sun Oct 06 01:43:52 IST 2024
+__utmc
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utmc
+
+ARRAffinity
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+ARRAffinity
+
+__utma
+class org.openqa.selenium.Cookie
+.demowebshop.tricentis.com
+/
+__utma
+Fri Oct 31 01:44:03 IST 2025

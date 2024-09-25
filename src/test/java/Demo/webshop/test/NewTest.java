@@ -17,6 +17,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -41,51 +42,51 @@ public class NewTest {
 	@BeforeSuite
 	public void beforeSuite() throws IOException
 	{
-		
+
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-workspace\\Keyword_Driven_Webshop_FrameWork\\cmd\\chromedriver.exe");
 		driver=new ChromeDriver();
-        Layout lay=new PatternLayout();
-        Appender ap=new FileAppender(lay,"Cook.txt");
-        log.addAppender(ap);
+		Layout lay=new PatternLayout();
+		Appender ap=new FileAppender(lay,"Cook.txt");
+		log.addAppender(ap);
 
 	}
 	@BeforeTest
 	public void BT()
 	{
 		driver.get("https://demowebshop.tricentis.com");
-		
-         log.info("Url Passed");
-        // Assert.assertEquals(driver.getCurrentUrl(),url );
+
+		log.info("Url Passed");
+		Assert.assertEquals(driver.getCurrentUrl(),"https://demowebshop.tricentis.com/");
 	}
 	@BeforeClass
 	public void maximize()
 	{
 		driver.manage().window().maximize();
-       log.info("Window Maximize");
+		log.info("Window Maximize");
 	}
 	@BeforeMethod
 	public void cookies()
 	{
 		Set<Cookie>	Scookies=driver.manage().getCookies();
-		System.out.println(Scookies.size()); 
+		System.out.println("Cookie Size"+Scookies.size()); 
 		for(Cookie cookie:Scookies)
 		{
 			log.info(cookie.getName());
-		    log.info(cookie.getClass());
-		    log.info(cookie.getDomain());
-		    log.info(cookie.getPath());
-		    log.info(cookie.getName());
-		    log.info(cookie.getExpiry());
-		    
+			log.info(cookie.getClass());
+			log.info(cookie.getDomain());
+			log.info(cookie.getPath());
+			log.info(cookie.getName());
+			log.info(cookie.getExpiry());
+
 		}
-		
+
 	}
 	@Test(priority = 1)
 	public void Regclass() throws IOException, InterruptedException 
 	{
 		Thread.sleep(2000);
-		 RegisterDemo demo=PageFactory.initElements(driver,RegisterDemo.class);
-		 
+		RegisterDemo demo=PageFactory.initElements(driver,RegisterDemo.class);
+
 		demo.RegisteDem();
 	}
 	@Test( priority =2)
@@ -106,41 +107,33 @@ public class NewTest {
 		Payment pay=PageFactory.initElements(driver, Payment.class);
 		pay.click();
 	}
-	
+
+
+	@AfterMethod
+	public void screenshot() throws IOException {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+
+		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+		File des = new File("src/test/resources/Screenshot/Screen_" + timestamp + ".JPG");
+		des.getParentFile().mkdirs();
+
+		FileUtils.copyFile(source, des);
+		System.out.println("Screenshot saved at: " + des.getAbsolutePath());
+	}
 
 	@AfterSuite
 	public void tearDown() {
 		driver.close();
 	}
 
-	@AfterMethod
-	public void screenshot() throws IOException {
-	    // Capture screenshot
-	    TakesScreenshot ts = (TakesScreenshot) driver;
-	    File source = ts.getScreenshotAs(OutputType.FILE);
 
-	    // Generate a timestamp for unique file names
-	    String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-	    // Define the destination path, using timestamp for uniqueness
-	    File des = new File("src/test/resources/Screenshot/Screen_" + timestamp + ".JPG");
 
-	    // Create directories if they don't exist
-	    des.getParentFile().mkdirs();
 
-	    FileUtils.copyFile(source, des);
 
-	    System.out.println("Screenshot saved at: " + des.getAbsolutePath());
-	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }

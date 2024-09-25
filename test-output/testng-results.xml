@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40466" started-at="2024-09-25T22:17:59 IST" finished-at="2024-09-25T22:18:39 IST">
+  <suite name="Default suite" duration-ms="50840" started-at="2024-09-26T01:43:28 IST" finished-at="2024-09-26T01:44:19 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40466" started-at="2024-09-25T22:17:59 IST" finished-at="2024-09-25T22:18:39 IST">
+    <test name="Default test" duration-ms="50840" started-at="2024-09-26T01:43:28 IST" finished-at="2024-09-26T01:44:19 IST">
       <class name="Demo.webshop.test.NewTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="beforeSuite" is-config="true" duration-ms="3768" started-at="2024-09-25T22:17:55 IST" finished-at="2024-09-25T22:17:59 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="beforeSuite" is-config="true" duration-ms="3615" started-at="2024-09-26T01:43:24 IST" finished-at="2024-09-26T01:43:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="BT()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="BT" is-config="true" duration-ms="2887" started-at="2024-09-25T22:17:59 IST" finished-at="2024-09-25T22:18:02 IST">
+        <test-method status="PASS" signature="BT()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="BT" is-config="true" duration-ms="10773" started-at="2024-09-26T01:43:28 IST" finished-at="2024-09-26T01:43:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method status="PASS" signature="maximize()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="maximize" is-config="true" duration-ms="119" started-at="2024-09-25T22:18:02 IST" finished-at="2024-09-25T22:18:02 IST">
+        <test-method status="PASS" signature="maximize()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="maximize" is-config="true" duration-ms="101" started-at="2024-09-26T01:43:39 IST" finished-at="2024-09-26T01:43:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maximize -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="66" started-at="2024-09-25T22:18:02 IST" finished-at="2024-09-25T22:18:02 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="68" started-at="2024-09-26T01:43:39 IST" finished-at="2024-09-26T01:43:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="Regclass()[pri:1, instance:Demo.webshop.test.NewTest@612679d6]" name="Regclass" duration-ms="8157" started-at="2024-09-25T22:18:02 IST" finished-at="2024-09-25T22:18:10 IST">
+        <test-method status="PASS" signature="Regclass()[pri:1, instance:Demo.webshop.test.NewTest@612679d6]" name="Regclass" duration-ms="9956" started-at="2024-09-26T01:43:39 IST" finished-at="2024-09-26T01:43:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Regclass -->
-        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="418" started-at="2024-09-25T22:18:10 IST" finished-at="2024-09-25T22:18:11 IST">
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="219" started-at="2024-09-26T01:43:49 IST" finished-at="2024-09-26T01:43:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="35" started-at="2024-09-25T22:18:11 IST" finished-at="2024-09-25T22:18:11 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="19" started-at="2024-09-26T01:43:49 IST" finished-at="2024-09-26T01:43:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="BookBuy()[pri:2, instance:Demo.webshop.test.NewTest@612679d6]" name="BookBuy" duration-ms="12891" started-at="2024-09-25T22:18:11 IST" finished-at="2024-09-25T22:18:24 IST">
+        <test-method status="PASS" signature="BookBuy()[pri:2, instance:Demo.webshop.test.NewTest@612679d6]" name="BookBuy" duration-ms="13572" started-at="2024-09-26T01:43:49 IST" finished-at="2024-09-26T01:44:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookBuy -->
-        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="181" started-at="2024-09-25T22:18:24 IST" finished-at="2024-09-25T22:18:24 IST">
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="190" started-at="2024-09-26T01:44:03 IST" finished-at="2024-09-26T01:44:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="31" started-at="2024-09-25T22:18:24 IST" finished-at="2024-09-25T22:18:24 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="44" started-at="2024-09-26T01:44:03 IST" finished-at="2024-09-26T01:44:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="Biling()[pri:3, instance:Demo.webshop.test.NewTest@612679d6]" name="Biling" duration-ms="2347" started-at="2024-09-25T22:18:24 IST" finished-at="2024-09-25T22:18:26 IST">
+        <test-method status="PASS" signature="Biling()[pri:3, instance:Demo.webshop.test.NewTest@612679d6]" name="Biling" duration-ms="2465" started-at="2024-09-26T01:44:03 IST" finished-at="2024-09-26T01:44:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Biling -->
-        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="142" started-at="2024-09-25T22:18:26 IST" finished-at="2024-09-25T22:18:26 IST">
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="145" started-at="2024-09-26T01:44:06 IST" finished-at="2024-09-26T01:44:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="21" started-at="2024-09-25T22:18:26 IST" finished-at="2024-09-25T22:18:26 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="cookies" is-config="true" duration-ms="38" started-at="2024-09-26T01:44:06 IST" finished-at="2024-09-26T01:44:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="payment()[pri:4, instance:Demo.webshop.test.NewTest@612679d6]" name="payment" duration-ms="12855" started-at="2024-09-25T22:18:26 IST" finished-at="2024-09-25T22:18:39 IST">
+        <test-method status="PASS" signature="payment()[pri:4, instance:Demo.webshop.test.NewTest@612679d6]" name="payment" duration-ms="12923" started-at="2024-09-26T01:44:06 IST" finished-at="2024-09-26T01:44:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment -->
-        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="181" started-at="2024-09-25T22:18:39 IST" finished-at="2024-09-25T22:18:39 IST">
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="screenshot" is-config="true" duration-ms="186" started-at="2024-09-26T01:44:19 IST" finished-at="2024-09-26T01:44:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="tearDown" is-config="true" duration-ms="365" started-at="2024-09-25T22:18:40 IST" finished-at="2024-09-25T22:18:40 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Demo.webshop.test.NewTest@612679d6]" name="tearDown" is-config="true" duration-ms="510" started-at="2024-09-26T01:44:19 IST" finished-at="2024-09-26T01:44:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
