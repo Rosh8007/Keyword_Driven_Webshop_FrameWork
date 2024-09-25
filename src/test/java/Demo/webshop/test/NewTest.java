@@ -32,6 +32,7 @@ import Demo.webshop.pages.Billing;
 import Demo.webshop.pages.BuyingBooks;
 import Demo.webshop.pages.Payment;
 import Demo.webshop.pages.RegisterDemo;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 @Listeners(DemoIsuitWebShop.class)
@@ -42,8 +43,8 @@ public class NewTest {
 	@BeforeSuite
 	public void beforeSuite() throws IOException
 	{
-
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-workspace\\Keyword_Driven_Webshop_FrameWork\\cmd\\chromedriver.exe");
+         WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-workspace\\Keyword_Driven_Webshop_FrameWork\\cmd\\chromedriver.exe");
 		driver=new ChromeDriver();
 		Layout lay=new PatternLayout();
 		Appender ap=new FileAppender(lay,"Cook.txt");
