@@ -2,13 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="aa" value="https://demowebshop.tricentis.com"/>
     <classes>
       <class name="Demo.webshop.test.NewTest">
         <methods>
-          <include name="Regclass"/>
           <include name="payment"/>
           <include name="beforeSuite"/>
+          <include name="screenshot"/>
           <include name="Biling"/>
           <include name="cookies"/>
           <include name="BT"/>

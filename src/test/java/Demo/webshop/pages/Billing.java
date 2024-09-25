@@ -94,24 +94,15 @@ public class Billing {
 		//		lastname.sendKeys(ln);
 		//		Thread.sleep(1000);
 		//		email.sendKeys(em);
-		Thread.sleep(1000);
+	
 		company.sendKeys(comp);
-
-		Thread.sleep(1000);
 		countryid.sendKeys(contry);
-		Thread.sleep(1000);
 		state.sendKeys(sta);
-		Thread.sleep(1000);
 		city.sendKeys(cit);
-		Thread.sleep(1000);
 		addr1.sendKeys(ad);
-		Thread.sleep(1000);
 		addr2.sendKeys(ad2);
-		Thread.sleep(1000);
 		zip.sendKeys(zp);
-		Thread.sleep(1000);
 		phone.sendKeys(phon);
-		Thread.sleep(1000);
 		faxno.sendKeys(fx);
 
 

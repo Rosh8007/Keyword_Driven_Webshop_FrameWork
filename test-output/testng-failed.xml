@@ -5,9 +5,12 @@
     <classes>
       <class name="Demo.webshop.test.NewTest">
         <methods>
+          <include name="Regclass"/>
           <include name="payment"/>
           <include name="beforeSuite"/>
+          <include name="screenshot"/>
           <include name="Biling"/>
+          <include name="tearDown"/>
           <include name="cookies"/>
           <include name="BT"/>
           <include name="BookBuy"/>

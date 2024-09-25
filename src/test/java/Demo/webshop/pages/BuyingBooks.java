@@ -2,9 +2,12 @@ package Demo.webshop.pages;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
@@ -49,9 +52,16 @@ public class BuyingBooks {
 		Thread.sleep(1000);
 		booksbotton.click();
 		book.click();
-		Thread.sleep(1000);
+		
 		addtocart.click();
-		Thread.sleep(1000);
+		Thread.sleep(3000);
+		
+		WebDriverWait wb=new WebDriverWait(driver, 10);
+		//Here Notification bar that pop up hides addto cart link
+		// so ive used webdriver waits till it becomes invisible
+		WebElement notificationBar = driver.findElement(By.id("bar-notification"));
+        wb.until(ExpectedConditions.invisibilityOf(notificationBar));
+		wb.until(ExpectedConditions.elementToBeClickable(opencart));
 		opencart.click();
 		TOS.click();
 		checkout.click();

@@ -74,19 +74,12 @@ public void RegisteDem() throws IOException, InterruptedException
    
    
 	register.click();
-	  Thread.sleep(2000);
 	gendermale.click();
-	Thread.sleep(2000);
 	firstname.sendKeys(fn);
-	Thread.sleep(2000);
 	lastnmae.sendKeys(la);
-	Thread.sleep(2000);
 	email.sendKeys(emai);
-	Thread.sleep(2000);
 	pass.sendKeys(pas);
-	Thread.sleep(2000);
 	conpas.sendKeys(conpass);
-	Thread.sleep(2000);
 	registerButton.click();
 	
 

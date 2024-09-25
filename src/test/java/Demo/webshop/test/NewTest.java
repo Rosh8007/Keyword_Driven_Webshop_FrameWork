@@ -1,7 +1,4 @@
 package Demo.webshop.test;
-
-import org.testng.annotations.Test;
-
 import Demo.webshop.listners.DemoIsuitWebShop;
 import Demo.webshop.pages.Billing;
 import Demo.webshop.pages.BuyingBooks;
@@ -10,14 +7,18 @@ import Demo.webshop.pages.RegisterDemo;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 
 import java.awt.Window;
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Set;
 
 import javax.sound.midi.MidiDevice.Info;
@@ -34,7 +35,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.BeforeSuite;
 
@@ -114,16 +114,31 @@ public class NewTest {
 	}
 	
 
-	
-//	@AfterMethod
-//	public void screenshot() throws IOException 
-//	{
-//		TakesScreenshot ts=(TakesScreenshot)driver;
-//	File source	=ts.getScreenshotAs(OutputType.FILE);
-//	File des=new File("src//test//resources//Screenshot//Screen.JPG");
-//	FileUtils.copyFile(des, source);
-//	}
-	
+	@AfterSuite
+	public void tearDown() {
+		driver.close();
+	}
+
+	@AfterMethod
+	public void screenshot() throws IOException {
+	    // Capture screenshot
+	    TakesScreenshot ts = (TakesScreenshot) driver;
+	    File source = ts.getScreenshotAs(OutputType.FILE);
+
+	    // Generate a timestamp for unique file names
+	    String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+
+	    // Define the destination path, using timestamp for uniqueness
+	    File des = new File("src/test/resources/Screenshot/Screen_" + timestamp + ".JPG");
+
+	    // Create directories if they don't exist
+	    des.getParentFile().mkdirs();
+
+	    FileUtils.copyFile(source, des);
+
+	    System.out.println("Screenshot saved at: " + des.getAbsolutePath());
+	}
+
 	
 	
 	
