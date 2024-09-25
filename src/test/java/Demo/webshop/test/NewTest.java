@@ -1,27 +1,9 @@
 package Demo.webshop.test;
-import Demo.webshop.listners.DemoIsuitWebShop;
-import Demo.webshop.pages.Billing;
-import Demo.webshop.pages.BuyingBooks;
-import Demo.webshop.pages.Payment;
-import Demo.webshop.pages.RegisterDemo;
-
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-
-import java.awt.Window;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Set;
-
-import javax.sound.midi.MidiDevice.Info;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Appender;
@@ -35,8 +17,20 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import Demo.webshop.listners.DemoIsuitWebShop;
+import Demo.webshop.pages.Billing;
+import Demo.webshop.pages.BuyingBooks;
+import Demo.webshop.pages.Payment;
+import Demo.webshop.pages.RegisterDemo;
 
 
 @Listeners(DemoIsuitWebShop.class)
